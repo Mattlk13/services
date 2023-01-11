@@ -5,13 +5,13 @@
   "private": true,
   "main": "index.js",
   "devDependencies": {
-    "express": "^3.5.1",
+    "express": "^4.18.2",
     "express-hbs": "^0.7.9",
     "handlebars": "^2.0.0-alpha.2",
     "istanbul": "^0.3.5",
-    "localtunnel": "^1.1.0",
+    "localtunnel": "^1.9.2",
     "marked": "^0.3.2",
-    "mocha": "^1.18.2"
+    "mocha": "^1.21.5"
   },
   "scripts": {
     "test-nocoverage": "mocha -R spec test/ lib/*/test",
